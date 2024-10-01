@@ -2,3 +2,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+.btn1 {
+    @apply hover:bg-gradient-to-r hover:from-sky-400 hover:to-emerald-600 hover:rounded-lg p-2
+  }
