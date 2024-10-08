@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 
 
-export default function LeftBar() {
+function LeftBar() {
   return (
     <div className='bg-black h-screen w-[300px] text-white'>
         <div className='mx-auto pt-2 mb-4 flex flex-row justify-center items-center gap-36'>
@@ -29,11 +29,11 @@ export default function LeftBar() {
                 </li>
                 <li className='btn1 flex flex-row gap-2'>
                     <i class="ri-football-line text-xl"></i>
-                    <a className='text-xl font-bold' href="#">Foorball live</a>
+                    <a className='text-xl font-bold' href="#">Football live</a>
                 </li>
                 <li className='btn1 flex flex-row gap-2'>
                     <i class="ri-ie-line text-xl"></i>
-                    <a className='text-xl font-bold' href="#">InternetSpeed</a>
+                    <a className='text-xl font-bold' href="#">Internet speed</a>
                 </li>
             </ul>
         </div>
@@ -41,3 +41,5 @@ export default function LeftBar() {
     </div>
   )
 }
+
+export default LeftBar
