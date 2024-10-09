@@ -4,7 +4,7 @@ import Horloge from './horloge/Horloge';
 
 function App() {
   return (
-    <div className="App flex flex-col">
+    <div className="App flex flex-row gap-4">
       <LeftBar />
       <Horloge />
     </div>
